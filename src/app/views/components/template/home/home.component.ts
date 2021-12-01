@@ -12,9 +12,9 @@ export class HomeComponent implements OnInit {
   constructor(public dialog:MatDialog) { }
 
   ngOnInit(): void {
+   
   }
-
-
+  
   openDialog(){
     const dialogRef = this.dialog.open(HomeDialogComponent);
 
